@@ -1,0 +1,26 @@
+{
+  "name": "cy-bdd-cucumber",
+  "version": "1.0.0",
+  "description": "exemplo sobre Behavior Driven Development",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danimaleski/ebac_uiBDDTestingPaterns.git"
+  },
+  "author": "daniella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danimaleski/ebac_uiBDDTestingPaterns/issues"
+  },
+  "homepage": "https://github.com/danimaleski/ebac_uiBDDTestingPaterns#readme",
+  "devDependencies": {
+    "cypress": "^14.2.1"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@cypress/webpack-preprocessor": "^6.0.4"
+  }
+}
